@@ -43,12 +43,12 @@ compplay = ()=>{
     }else{//sissors
          userwin = (computerplay==="stone") ? false :true;
     }
-     winner(userwin,userplay,computerplay);
+     winner(userwin);
 
   };
 
     //winner 
-     winner = (userwin,userplay,compplay)=>{
+     winner = (userwin)=>{
 
         if(userwin){ //userwinner
           uscore++
